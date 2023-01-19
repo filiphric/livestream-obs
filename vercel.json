@@ -1,0 +1,8 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)_screenshare",
+      "destination": "/?room=live&screenshare&push=$1"
+    }
+  ]
+}
