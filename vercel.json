@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/(.*)_join",
-      "destination": "/?room=live&screenshare&push=$1"
+      "source": "/:path(.*)",
+      "destination": "?room=livestreamingobsguestroom&push=$1"
     }
   ]
 }
