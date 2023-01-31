@@ -4467,3 +4467,7 @@ body.darktheme .startupWarning>.las  {
 body.darktheme .invite_setting_group_links a {
 	color:#d2e5ff!important;
 }
+
+[title="Remote Screenshare into OBS"] {
+	display: none
+}
