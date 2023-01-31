@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/join/(.*)",
-      "destination": "?room=livestreamingobsguestroom&push=$1&screenshareid=$1_screenshare"
+      "destination": "/?room=livestreamingobsguestroom&push=$1&screenshareid=$1_screenshare"
     }
   ]
 }
