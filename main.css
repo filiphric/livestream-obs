@@ -280,11 +280,7 @@ button.white:active {
     color: #e0dfdf;
 }
 #header {
-	width: 100%;
-	padding: 1px;
-	background-color: #0F131D;
-	color: #FFF;
-	-webkit-app-region: drag;
+	display: none;
 }
 #head1{
 	display: inline-block; 
@@ -4468,6 +4464,7 @@ body.darktheme .invite_setting_group_links a {
 	color:#d2e5ff!important;
 }
 
-[title="Remote Screenshare into OBS"] {
+[title="Screenshare with Room"], #credits, #translateButton {
 	display: none
 }
+
