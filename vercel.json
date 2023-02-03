@@ -3,6 +3,10 @@
     {
       "source": "/join/(.*)",
       "destination": "/?room=livestreamingobsguestroom&push=$1&screenshareid=$1_screenshare"
+    },
+    {
+      "source": "/chat",
+      "destination": "https://socialstream.ninja/dock.html?session=D3RjPYFzuY"
     }
   ]
 }
